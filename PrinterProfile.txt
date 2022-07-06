@@ -1,0 +1,13 @@
+Start G-code:
+; FlashForge Guider II Start G-Code
+G90 ; Absolute Positioning
+; End of Start G-code
+
+End G-code:
+M104 S0 T0
+M140 S0
+G162 Z
+G28 X Y
+M132 X Y Z A B
+G91
+M18
